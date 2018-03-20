@@ -940,9 +940,12 @@ respected.</li><br>
 														</div>
 														<div class=" prici" align="jusify">
 															
-															<b>Reg Fee&nbsp;&nbsp;:&nbsp;&nbsp; Rs&nbsp;100 per Head</b></br>
+															<b>Reg Fee&nbsp;&nbsp;:&nbsp;&nbsp; Rs&nbsp;100 per Team</b></br>
 
 														</div>
+														<br/> <br/>
+													<button style="color:#fff; background-color:inherit; font-size:1.5em;" id="eventbrite-widget-modal-trigger-44376340830" type="button">Register</button>
+														<noscript></a>Register</noscript>
 													</div>
 													<div class="col-md-6 ">
 														<ul class="nav nav-tabs" id="tabContent">
@@ -1621,6 +1624,14 @@ $('.menuh').click(function() {
         eventId: '44374341851',
         modal: true,
         modalTriggerElementId: 'eventbrite-widget-modal-trigger-44374341851',
+        onOrderComplete: exampleCallback
+    });
+	
+	  window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '44376340830',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-44376340830',
         onOrderComplete: exampleCallback
     });
 
