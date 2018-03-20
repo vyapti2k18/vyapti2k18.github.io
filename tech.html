@@ -696,6 +696,8 @@ respected.</li><br>
                                                    <b>Reg Fee&nbsp;&nbsp;:&nbsp;&nbsp; &#8377;&nbsp;150</b></br>
                                                    <b>Team Specification&nbsp;&nbsp;:&nbsp;&nbsp;3 member</b>
                                                 </div>
+												<button style="color:#fff; background-color:inherit; font-size:1.5em;" id="eventbrite-widget-modal-trigger-44377551451" type="button">Register</button>
+														<noscript></a>Register</noscript> <br/>
                                              </div>
                                              <div class="col-md-6 ">
                                                 <ul class="nav nav-tabs" id="tabContent">
@@ -1654,5 +1656,12 @@ $('.menuh').click(function() {
         onOrderComplete: exampleCallback
     });
 	
+	 window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '44377551451',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-44377551451',
+        onOrderComplete: exampleCallback
+    });
 </script>
 </html>
