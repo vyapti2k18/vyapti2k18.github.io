@@ -829,7 +829,9 @@ respected.</li><br>
 														<td></td>
 														<td>&nbsp;  9:30 am to 2:00pm</td>
 															</tr> 
-													</table>
+													</table> <br/> <br/>
+													<button style="color:#fff; background-color:inherit; font-size:1.5em;" id="eventbrite-widget-modal-trigger-44374341851" type="button">Register</button>
+														<noscript></a>Register</noscript>
                                              </div>
                                              <div class="col-md-6 ">
                                                 <ul class="nav nav-tabs" id="tabContent">
@@ -922,13 +924,13 @@ respected.</li><br>
 <!--- EEE -->
 <div class="iso-box eee intra col-lg-3 col-md-4 col-sm-6 col-xs-12">
 								<a data-toggle="modal" data-target="#TEE02Modal"> <img src="images/techmania.jpg" alt="Gear Train" class="img-responsive">
-								<div class="desc">TECH MANIA</div></a>
+								<div class="desc">TEENO VISION</div></a>
 								<div class="modal fade" id="TEE02Modal" tabindex="-1" role="dialog" data-focus-on="input:first" style="overflow:none;">
 									<div class="modal-dialog modal-lg" role="document">
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-												<h4 class="modal-title">TECH MANIA</h4>
+												<h4 class="modal-title">TEENO VISION</h4>
 											</div>
 											<div class="modal-body">
 												<div class="row">
@@ -1613,6 +1615,14 @@ $('.menuh').click(function() {
         onOrderComplete: exampleCallback
     });
 	
+	
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '44374341851',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-44374341851',
+        onOrderComplete: exampleCallback
+    });
 
 </script>
 </html>
