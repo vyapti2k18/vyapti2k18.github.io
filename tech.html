@@ -1141,6 +1141,8 @@ Avenger in you…..
 
 
 														</div>
+														<button style="color:#fff; background-color:inherit; font-size:1.5em;" id="eventbrite-widget-modal-trigger-44377282647" type="button">Register</button>
+														<noscript></a>Register</noscript> <br/>
 													</div>
 													<div class="col-md-6 ">
 														<ul class="nav nav-tabs" id="tabContent">
@@ -1641,6 +1643,14 @@ $('.menuh').click(function() {
         eventId: '44376836312',
         modal: true,
         modalTriggerElementId: 'eventbrite-widget-modal-trigger-44376836312',
+        onOrderComplete: exampleCallback
+    });
+	
+	 window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '44377282647',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-44377282647',
         onOrderComplete: exampleCallback
     });
 	
